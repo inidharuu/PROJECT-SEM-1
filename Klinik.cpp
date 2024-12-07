@@ -529,7 +529,7 @@ void Dokter::displayDokter() const
     ofstream dataDokter;
 
     dataDokter.open("daBaseDokter.txt", ios::app);
-    dataDokter << "Nama\t\t\t: " << Nama << endl;
+    dataDokter << "\nNama\t\t\t: " << Nama << endl;
     dataDokter << "Pangkat\t\t\t: " << Pangkat << endl;
     dataDokter << "NIP\t\t\t\t: " << NIP << endl;
 
