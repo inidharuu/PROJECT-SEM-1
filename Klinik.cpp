@@ -495,7 +495,7 @@ void MainApp::inputDokter()
 
     while (true)
     {
-        cout << "Masukkan Nomor BPJS: ";
+        cout << "Masukkan NIP Dokter: ";
         if (cin >> NIP)
         {
             cin.ignore();
