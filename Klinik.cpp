@@ -626,17 +626,19 @@ void MainApp::inputKefokusan()
         if (kefokusan == "Umum" || kefokusan == "umum")
         {
             break;
+            validKefokusan = true;
         }
         else if (kefokusan == "Spesialis" || kefokusan == "spesialis")
         {
             inputSpesialis();
+            validKefokusan = true;
         }
         else
         {
             cout << "\nKefokusan tidak ditemukan" << endl;
             cout << "Silahkan pilih 'Umum' atau 'Spesialis'." << endl;
         }
-        validKefokusan = true;
+        
     }
     addKefokusan(kefokusan);
 }
